@@ -1,0 +1,20 @@
+{
+  "name": "tcc-latency-tests",
+  "version": "1.0.0",
+  "description": "Testes de latência e throughput em XRP Ledger e Stellar Testnet — TCC Anhembi Morumbi 2026",
+  "type": "commonjs",
+  "scripts": {
+    "test:xrpl": "node scripts/test_xrpl.js",
+    "test:stellar": "node scripts/test_stellar.js",
+    "test:all": "npm run test:xrpl && npm run test:stellar",
+    "report": "node scripts/generate_report.js",
+    "full": "npm run test:all && npm run report"
+  },
+  "author": "Grupo TCC — Engenharia da Computação — UAM 2026",
+  "license": "MIT",
+  "dependencies": {
+    "xrpl": "^4.6.0",
+    "@stellar/stellar-sdk": "^15.1.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}

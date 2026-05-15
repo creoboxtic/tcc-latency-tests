@@ -1,0 +1,32 @@
+services:
+  tcc-tests:
+    build: .
+    container_name: tcc-latency-tests
+    image: tcc-latency-tests:latest
+    volumes:
+      - ./results:/app/results
+    networks:
+      - tcc-network
+    environment:
+      - NUM_TRANSACTIONS=${NUM_TRANSACTIONS:-50}
+      - VERBOSE=${VERBOSE:-true}
+      - RODADA=${RODADA:-}
+
+  tcc-xrpl:
+    extends: tcc-tests
+    container_name: tcc-xrpl-only
+    command: npm run test:xrpl
+
+  tcc-stellar:
+    extends: tcc-tests
+    container_name: tcc-stellar-only
+    command: npm run test:stellar
+
+  tcc-report:
+    extends: tcc-tests
+    container_name: tcc-report-only
+    command: npm run report
+
+networks:
+  tcc-network:
+    driver: bridge

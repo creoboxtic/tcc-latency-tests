@@ -1,0 +1,11 @@
+node_modules/
+results/*.json
+*.log
+.env
+.DS_Store
+
+# Mantém apenas resultados versionados por rodada (resultados_xrpl_rN.csv, relatorio_final_rN.md);
+# descarta os artefatos sem sufixo gerados por execuções ad-hoc.
+results/resultados_xrpl.csv
+results/resultados_stellar.csv
+results/relatorio_final.md
