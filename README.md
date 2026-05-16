@@ -58,9 +58,9 @@ Sugestões: 20 (descritivo), 100 (inferencial).
 | Autor | Curso |
 |---|---|
 | Luis Manuel Horcajada Oliva | Engenharia da Computação |
-| Matheus Rabelo da Rocha | Engenharia da Computação |
-| Luan Ribeiro de Souza | Engenharia da Computação |
 | Lucylla Mendes Farias | Engenharia da Computação |
+| Luan Ribeiro de Souza | Engenharia da Computação |
+| Luiz Gustavo Gramignolli Mariano | Engenharia da Computação |
 
 **Orientador:** Prof. Diógenes Carvalho Matias
 **Tutora:** Profa. Rita de Cassia Almeida de Mesquita
@@ -68,8 +68,8 @@ Sugestões: 20 (descritivo), 100 (inferencial).
 
 ## Como citar (ABNT NBR 6023:2018)
 
-> HORCAJADA OLIVA, L. M.; RABELO DA ROCHA, M.; RIBEIRO DE SOUZA, L.;
-> MENDES FARIAS, L. **TCC — Empirical Latency Benchmarks: XRP Ledger
-> and Stellar Testnet**. São Paulo: Universidade Anhembi Morumbi, 2026.
-> Disponível em: https://github.com/creoboxtic/tcc-latency-tests.
+> HORCAJADA OLIVA, L. M.; MENDES FARIAS, L.; RIBEIRO DE SOUZA, L.;
+> GRAMIGNOLLI MARIANO, L. G. **TCC — Empirical Latency Benchmarks:
+> XRP Ledger and Stellar Testnet**. São Paulo: Universidade Anhembi
+> Morumbi, 2026. Disponível em: https://github.com/creoboxtic/tcc-latency-tests.
 > Acesso em: [data].
