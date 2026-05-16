@@ -8,7 +8,7 @@
 [![ISO 20022](https://img.shields.io/badge/ISO%2020022-UETR-0A4D8C)](https://www.iso20022.org/)
 [![TCC](https://img.shields.io/badge/TCC-UAM%202026-success)](https://www.anhembi.br/)
 
-Testes empíricos de latência em redes DLT — TCC Engenharia da Computação, Anhembi Morumbi (2026).
+Testes empíricos de latência em redes DLT — Trabalho de Conclusão de Curso interdisciplinar, Faculdade de Engenharia, Anhembi Morumbi (2026).
 
 ## Quick Start
 
@@ -53,14 +53,16 @@ Sugestões: 20 (descritivo), 100 (inferencial).
 
 ---
 
-## Equipe
+## 👥 Equipe
+
+Trabalho interdisciplinar com integrantes de três cursos da Faculdade de Engenharia:
 
 | Autor | Curso |
 |---|---|
 | Luis Manuel Horcajada Oliva | Engenharia da Computação |
-| Lucylla Mendes Farias | Engenharia da Computação |
-| Luan Ribeiro de Souza | Engenharia da Computação |
-| Luiz Gustavo Gramignolli Mariano | Engenharia da Computação |
+| Lucylla Mendes Farias | Engenharia Elétrica |
+| Luan Ribeiro de Souza | Engenharia Civil |
+| Luiz Gustavo Gramignolli Mariano | Engenharia Civil |
 
 **Orientador:** Prof. Diógenes Carvalho Matias
 **Tutora:** Profa. Rita de Cassia Almeida de Mesquita
@@ -73,3 +75,7 @@ Sugestões: 20 (descritivo), 100 (inferencial).
 > XRP Ledger and Stellar Testnet**. São Paulo: Universidade Anhembi
 > Morumbi, 2026. Disponível em: https://github.com/creoboxtic/tcc-latency-tests.
 > Acesso em: [data].
+
+---
+
+*Grupo TCC — Faculdade de Engenharia · Universidade Anhembi Morumbi · 2026*
