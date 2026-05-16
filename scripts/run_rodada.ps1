@@ -4,6 +4,14 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+[Console]::InputEncoding  = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+$PSDefaultParameterValues['Out-File:Encoding']    = 'utf8'
+$PSDefaultParameterValues['Tee-Object:Encoding']  = 'utf8'
+$PSDefaultParameterValues['Set-Content:Encoding'] = 'utf8'
+chcp 65001 | Out-Null
+
 $repo = 'D:\OneDrive\DevOps\tcc-latency-tests'
 Set-Location $repo
 
